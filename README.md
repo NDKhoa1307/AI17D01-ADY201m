@@ -35,36 +35,39 @@ although it should not have any effects on your computer, being cautious is alwa
 !! IMPORTANT, AFTER YOU ARE DONE WITH YOU WORK, MAKE SURE TO PUSH IT TO YOUR BRANCH, NOT THE MAIN BRANCH
    WHICH MEANS WHATEVER YOU DO, DO NOT PUT THE WORD MAIN IN YOUR TERMINAL, EVER                         !!
 
-After all of that, init your git folder in your current working directory by using: 
+After all of that, init your git folder in your current working directory by using:
     git init
 
-Next, establish a connection with the git repo by using: 
+Next, establish a connection with the git repo by using:
     git remote add origin "https://github.com/NDKhoa1307/AI17D01-ADY201m.git"
 
-Make sure to be up-to-date by using: 
+Make sure to be up-to-date by using:
     git pull origin main
     (This is the only time you can put main in your terminal :p)
 
-To create a new branch, if you have not done any work, use: 
+To create a new branch, if you have not done any work, use:
     git checkout -b {the name of your branch}
     This should create a new branch for you and then switch you to that branch as well 
 
-However, if you have already done a lot of work, use: 
+However, if you have already done a lot of work, use:
     git branch {the name of your branch}
 This only create a new branch so it perfectly fine and you will not lose your work
 
 (Check out this link to know how to name your branch: https://dev.to/varbsan/a-simplified-convention-for-naming-branches-and-commits-in-git-il4)
 
-After that, make sure you have staged all of your modified files by using: git add -A 
+After that, make sure you have staged all of your modified files by using:
+    git add -A 
 (In some occasion, the flag -A could be replace with the files you wish to stage and not all of them)
 
-Staging has completed ? Commit the change by typing: 
+Staging has completed ? Commit the change by typing:
     git commit -m {commit message}
 (Check out this link to know how to write your commit message: https://www.conventionalcommits.org/en/v1.0.0/)
 
 !! One more thing to mention is that you should make sure your code is up-to-date before pushing, it might not change anything, but sure, it 
-can help you avoids a lotttttt of issues in the future
+can help you avoids a lotttttt of issues in the future:
     git pull origin {Your branch name}
 
-All that is left to do is to push your changes into YOUR BRANCH by using: 
+All that is left to do is to push your changes into YOUR BRANCH by using:
     git push origin {YOUR BRANCH}
+
+If you have any question, don't be hesitated to ask !
