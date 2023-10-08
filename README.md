@@ -13,7 +13,7 @@ by using this in your terminal (mind your current working directory):
     pip install -r ./requirements.txt
 
 After all has been done, you should see this in your terminal:
-    (env) PS {current working directory}
+    (name of your virtual environment) PS {current working directory}
 
 If not, good luck fixing the bug :D
 
